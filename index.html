@@ -6,51 +6,96 @@
     <title>Prüfung: Röntgenstrahlung & Radioaktivität + Wechselwirkung mit Materie</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f8f8f8;
-            color: #333;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #f0f4f8 0%, #e6ecef 100%);
+            color: #2d3748;
         }
         h1 {
             text-align: center;
-            color: #0056b3;
+            color: #2b6cb0;
+            font-size: 2.2em;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            color: #0056b3;
-            border-bottom: 2px solid #0056b3;
-            padding-bottom: 5px;
-            margin-top: 25px;
+            color: #2b6cb0;
+            font-size: 1.8em;
+            margin-top: 40px;
+            padding: 10px 15px;
+            background: #e2e8f0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
         }
         h3 {
-            color: #007bff;
-            margin-top: 20px;
+            color: #3182ce;
+            font-size: 1.4em;
+            margin-top: 30px;
         }
         p {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            font-size: 1.1em;
         }
         ol {
-            margin-left: 20px;
-            margin-bottom: 15px;
+            margin-left: 25px;
+            margin-bottom: 20px;
+            padding-left: 15px;
         }
         li {
-            margin-bottom: 8px;
+            margin-bottom: 12px;
+            padding-left: 10px;
+            position: relative;
+        }
+        li:before {
+            content: "•";
+            color: #4a90e2;
+            font-size: 1.2em;
+            position: absolute;
+            left: -10px;
         }
         .teil {
-            margin-bottom: 30px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .teil:hover {
+            transform: translateY(-5px);
         }
         .hinweis {
             font-style: italic;
-            color: #777;
+            color: #718096;
+            background: #edf2f7;
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: inline-block;
         }
         .formel {
             font-style: italic;
             font-weight: bold;
+            color: #2c5282;
+            background: #e6fffa;
+            padding: 2px 6px;
+            border-radius: 4px;
         }
         .bewertungsschluessel {
-            margin-top: 40px;
-            border-top: 1px dashed #ccc;
-            padding-top: 20px;
+            margin-top: 50px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .bewertungsschluessel p {
+            margin: 10px 0;
+            padding: 8px;
+            border-left: 4px solid #4a90e2;
+        }
+        b {
+            color: #2b6cb0;
         }
     </style>
 </head>
@@ -64,7 +109,6 @@
     <div class="teil">
         <h2>🧠 Teil 1: Theorie (30 Punkte)</h2>
         <p class="hinweis">✍️ Beantworte die Fragen knapp und präzise!</p>
-
         <ol>
             <li>Welche Schale eines Atoms besitzt die am stärksten gebundenen Elektronen? (2 P.)</li>
             <li>Warum wird Wolfram als Anodenmaterial in Röntgenröhren genutzt? (2 P.)</li>
@@ -81,7 +125,6 @@
     <div class="teil">
         <h2>🔢 Teil 2: Rechenaufgaben (50 Punkte)</h2>
         <p class="hinweis">✍️ Zeige alle Rechenschritte!</p>
-
         <ol>
             <li>
                 Ein Elektron wird in einer Röntgenröhre mit 50 kV beschleunigt.
@@ -125,7 +168,6 @@
     <div class="teil">
         <h2>📊 Teil 3: Vertiefung & Analyse (20 Punkte)</h2>
         <p class="hinweis">✍️ Erkläre ausführlich und nutze ggf. Skizzen!</p>
-
         <ol>
             <li>Vergleiche die Entstehung von Bremsstrahlung und charakteristischer Röntgenstrahlung. (10 P.)</li>
             <li>Warum nimmt die Absorption von Röntgenstrahlen mit zunehmender Energie ab? (5 P.)</li>
